@@ -16,7 +16,8 @@ public class TipCalculator {
             scan.nextLine();
             total += temp;
         }
-        double total_tip =
+        double perTip = (double) tip / 100;
+        double totalTip = (total * tip);
 
 
     }
