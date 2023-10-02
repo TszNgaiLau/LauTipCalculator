@@ -34,7 +34,6 @@ public class TipCalculator {
         //All the calculations done to find the values need.
         total++;
         double perTip = (double) tip / 100;
-
         double totalTip = total * perTip;
         //I learned how to round from here: https://www.youtube.com/watch?v=Qp_831lIzjE
         totalTip = Math.round(totalTip * 100.0) / 100.0;
